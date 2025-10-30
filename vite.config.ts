@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/prompt-lab-genai/", // 👈 IMPORTANTE para GitHub Pages
   server: {
     host: "::",
     port: 8080,
